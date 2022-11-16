@@ -1,11 +1,8 @@
 
 function trail(t){
- 
-  var n=t.value
-   
-  while (true) if (n.substring(0,1)=="0") n=n.substring(1, n.length); else break;
-   
-  t.value=n;
+   var n=t.value
+      while (true) if (n.substring(0,1)=="0") n=n.substring(1, n.length); else break;
+      t.value=n;
    
   }
    
